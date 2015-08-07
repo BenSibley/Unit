@@ -1,12 +1,22 @@
 /*
  Theme Name:   Unit
  Template:     founder
+ Theme URI:    https://www.competethemes.com/unit/
  Author: 	   Compete Themes
- Version: 	   1.0
  Author URI:   https://www.competethemes.com
- Description:  This is a child theme used to customize the Founder WordPress theme.
- License: GNU  General Public License v2 or later
+ Version: 	   1.0
+ Description:  Unit is a child theme for the Founder theme.
+ License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         gray, orange, silver, tan, white, light, fluid-layout, responsive-layout, one-column, accessibility-ready, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+Unit WordPress Theme, Copyright 2015 Compete Themes
+Unit is distributed under the terms of the GNU GPL
+
+Unit is a child theme of Author
+
+It's not recommended to add CSS to this file, as it will be lost if you ever update this child theme.
+ Instead, use the Custom CSS section in the Customizer.
 */
 @import url("../founder/style.min.css");
 /* =Theme customization starts here
