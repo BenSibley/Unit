@@ -1,0 +1,17 @@
+.site-footer {
+  position: relative;
+  background: white;
+  border-color: $color-gray-88;
+
+  // bg for > 1400px
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -999px;
+    left: -999px;
+    height: 100%;
+    background: white;
+    z-index: -1;
+  }
+}

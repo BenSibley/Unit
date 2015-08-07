@@ -1,0 +1,26 @@
+.comments {
+  padding: $baseline-height;
+}
+.comments-number {
+  margin: 0 0 $baseline-height;
+}
+.comment-list {
+  margin: 0;
+}
+.comment-respond {
+  margin: $baseline-height * 2 0;
+}
+
+@media all and (min-width: $nine-hundred) {
+
+  .comments {
+    padding: $baseline-height $baseline-height * 2;
+  }
+}
+
+@media all and (min-width: $eleven-hundred) {
+
+  .comments {
+    padding: $baseline-height $baseline-height * 3;
+  }
+}

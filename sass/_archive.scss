@@ -1,0 +1,66 @@
+.loop-pagination {
+  background: white;
+  border: solid 1px $color-gray-88;
+
+  a,
+  span {
+    display: inline-block;
+    padding: $baseline-height / 2 $baseline-height;
+    margin: 0 -4px 0 0;
+  }
+  .prev,
+  .next {
+    margin: 0 -4px 0 0;
+  }
+  .prev {
+    float: left;
+  }
+  .next {
+    float: right;
+    margin-right: 0px;
+  }
+  a {
+    border-bottom: none;
+    border-right: solid 1px transparent;
+    border-left: solid 1px transparent;
+    transition: all 0.1s ease-in-out;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: $color-gray-97;
+      border-color: $color-gray-93;
+    }
+  }
+}
+.archive-header {
+  background: white;
+  border: solid 1px $color-gray-88;
+  padding: $baseline-height;
+
+  h2 {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  span {
+    font-weight: 300;
+  }
+}
+@media all and (min-width: $eleven-hundred) {
+
+  .archive,
+  .blog,
+  .search {
+
+    .post-content {
+
+      p {
+
+        &:last-of-type {
+          margin: $baseline-height 0 0;
+        }
+      }
+    }
+  }
+}

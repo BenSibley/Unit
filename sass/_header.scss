@@ -1,0 +1,29 @@
+.site-header {
+  position: relative;
+  background: white;
+  border-color: $color-gray-88;
+}
+.toggle-sidebar {
+  top: calc(100% - 1px);
+  border-color: $color-gray-88;
+  border-radius: 0 0 50% 50%;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $color-gray-88;
+  }
+}
+.sidebar-primary {
+  background: white;
+
+  &.open {
+    border-bottom: solid 1px $color-gray-88;
+
+    .toggle-sidebar {
+      border-color: $color-gray-88;
+      border-top: none;
+      top: 100%;
+    }
+  }
+}

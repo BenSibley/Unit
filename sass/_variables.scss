@@ -1,0 +1,127 @@
+/*===== Variables =====*/
+
+$primary-font-stack: 'Open Sans', sans-serif;
+$baseline-height: 1.5em;
+$column: 4.167%;
+
+/* Theme Colors */
+
+$color-gray-10: #1A1A1A;
+$color-gray-20: #333333;
+$color-gray-30: #4D4D4D;
+$color-gray-40: #666666;
+$color-gray-63: #A1A1A1;
+$color-gray-83: #D4D4D4;
+$color-gray-88: #e0e0e0;
+$color-gray-93: #EDEDED;
+$color-gray-97: #F7F7F7;
+
+$color-orange: #E37D39;
+
+/* Media Query widths */
+
+$four-hundred: 25em;
+$five-hundred: 31.25em;
+$six-hundred: 37.5em;
+$seven-hundred: 43.75em;
+$nine-hundred: 56.25em;
+$one-thousand: 62.5em;
+$eleven-hundred: 68.75em;
+$twelve-hundred: 75em;
+$fourteen-hundred: 87.5em;
+
+/* Social Media Brand Colors */
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #aad450;
+$tumblr: #32506d;
+$instagram: #517fa4;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+$rss: #fa9b39;
+$reddit: #cee3f8;
+$spotify: #81b71a;
+$vine: #00b489;
+$behance: #000;
+$codepen: #000;
+$delicious: #2a96ff;
+$deviantart: #bfce00;
+$digg: #000;
+$github: #171515;
+$hacker-news: #ff6600;
+$steam: #145f90;
+$vk: #45668e;
+$weibo: #e6162d;
+$tencent-weibo: #20b8e5;
+
+
+/*===== Mixins =====*/
+
+@mixin clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/***** Silent Classes *****/
+
+// 36px font
+%thirty-six-pixels {
+  font-size: 2.25em; /* 36px / 16px */
+  line-height: 1.5; /* 54px */
+}
+// 24px font
+%twenty-four-pixels {
+  font-size: 1.5em; /* 24px / 16px */
+  line-height: 1.5; /* 36px */
+}
+// 11px font
+%eleven-pixels {
+  font-size: 0.6875em; /* 11px / 16px */
+  line-height: 1.4545; /* 16px */
+}
+// uppercase
+%uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+%dark-link {
+  color: $color-gray-10;
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color-gray-10;
+  }
+}
+
+%dark-link {
+  color: $color-gray-10;
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color-gray-10;
+  }
+}
