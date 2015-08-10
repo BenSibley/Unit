@@ -219,6 +219,7 @@ body {
   background: white;
   border: solid 1px #e0e0e0;
   padding: 1.5em;
+  margin-bottom: 0;
 }
 .archive-header h2 {
   font-size: 1em;
