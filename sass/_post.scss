@@ -6,6 +6,9 @@
   &:first-child {
     margin-top: $baseline-height * 4;
   }
+  &:not(.has-post-thumbnail) {
+    padding-top: $baseline-height / 2;
+  }
 }
 .featured-image {
   width: 100%;

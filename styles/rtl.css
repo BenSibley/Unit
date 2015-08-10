@@ -39,6 +39,9 @@ body {
 .entry:first-child {
   margin-top: 6em;
 }
+.entry:not(.has-post-thumbnail) {
+  padding-top: 0.75em;
+}
 
 .featured-image {
   width: 100%;
@@ -195,6 +198,21 @@ body {
 }
 .archive-header span {
   font-weight: 300;
+}
+
+.sticky.has-post-thumbnail {
+  position: relative;
+}
+.sticky.has-post-thumbnail .sticky-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sticky.has-post-thumbnail .sticky-status span {
+  display: inline-block;
+  background: #333333;
+  color: white;
+  padding: 12px 24px;
 }
 
 @media all and (min-width: 68.75em) {
