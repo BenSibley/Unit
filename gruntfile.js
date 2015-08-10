@@ -40,14 +40,13 @@ module.exports = function(grunt) {
                     swapLtrRtlInUrl: false // replace 'ltr' with 'rtl'
                 },
                 src: ['style.css'],
-                dest: 'styles/rtl.css'
+                dest: 'rtl.css'
             }
         },
         cssmin: {
             combine: {
                 files: {
                     'style.min.css': ['style.css']
-                    //'styles/rtl.min.css': ['styles/rtl.css']
                 }
             }
         },
