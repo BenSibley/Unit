@@ -14,4 +14,7 @@
     background: white;
     z-index: -1;
   }
+  &:after {
+    background: $color-gray-88;
+  }
 }

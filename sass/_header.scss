@@ -2,6 +2,20 @@
   position: relative;
   background: white;
   border-color: $color-gray-88;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -999px;
+    right: -999px;
+    background: white;
+    z-index: -1;
+  }
+  &:after {
+    background: $color-gray-88;
+  }
 }
 .toggle-sidebar {
   top: calc(100% - 1px);
@@ -17,6 +31,16 @@
 .sidebar-primary {
   background: white;
 
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -999px;
+    right: -999px;
+    background: white;
+    z-index: -1;
+  }
   &.open {
     border-bottom: solid 1px $color-gray-88;
 
@@ -24,6 +48,9 @@
       border-color: $color-gray-88;
       border-top: none;
       top: 100%;
+    }
+    &:after {
+      background: $color-gray-88;
     }
   }
 }
