@@ -61,4 +61,4 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Unit also uses:
 
-* Golden Gate Bridge image in screenshot.png from http://unsplash.com, licensed under Public Domain
+* images in screenshot.png from http://unsplash.com, licensed under Public Domain
