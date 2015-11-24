@@ -64,14 +64,14 @@ module.exports = function(grunt) {
         shell: {
             zip: {
                 command: [
-                    // delete existing copies on Desktop (if they exist)
-                    'rm -R /Users/bensibley/Desktop/unit || true',
-                    'rm -R /Users/bensibley/Desktop/unit.zip || true',
-                    // copy theme folder to desktop without any project/meta files
-                    'rsync -r /Applications/MAMP/htdocs/wordpress/wp-content/themes/unit /Users/bensibley/Desktop/ <%= excludeFiles %>',
-                    // open desktop
-                    'cd /Users/bensibley/Desktop/',
-                    // zip the unit folder on desktop
+                    // delete existing copies (if they exist)
+                    'rm -R /Users/bensibley/Documents/compete-themes/dist/unit || true',
+                    'rm -R /Users/bensibley/Documents/compete-themes/dist/unit.zip || true',
+                    // copy theme folder without any project/meta files
+                    'rsync -r /Applications/MAMP/htdocs/wordpress/wp-content/themes/unit /Users/bensibley/Documents/compete-themes/dist/ <%= excludeFiles %>',
+                    // open dist folder
+                    'cd /Users/bensibley/Documents/compete-themes/dist/',
+                    // zip the unit folder
                     'zip -r unit.zip unit'
                 ].join('&&')
             }
