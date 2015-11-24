@@ -1,5 +1,12 @@
 <?php
 
+function ct_unit_after_setup_theme() {
+
+	// load text domain
+	load_theme_textdomain( 'unit', get_template_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'ct_unit_after_setup_theme' );
+
 function ct_unit_override_footer_text( $footer_text ) {
 
 	$site_url = 'https://www.competethemes.com/unit/';
