@@ -61,4 +61,5 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Unit also uses:
 
-* images in screenshot.png from http://unsplash.com, licensed under Public Domain
+* Desk image in screenshot.png from Unsplash (https://unsplash.com/photos/GANqCr1BRTU), licensed under Public Domain
+* Grand Central Station image in screenshot.png from Unsplash (https://unsplash.com/photos/2Qm47LI0W1c), licensed under Public Domain
