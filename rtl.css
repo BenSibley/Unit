@@ -9,6 +9,7 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         gray, orange, silver, tan, white, light, fluid-layout, responsive-layout, one-column, accessibility-ready, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain: unit
 
 Unit WordPress Theme, Copyright 2015 Compete Themes
 Unit is distributed under the terms of the GNU GPL
@@ -28,7 +29,7 @@ It's not recommended to add CSS to this file, as it will be lost if you ever upd
 /*===== Mixins =====*/
 /***** Silent Classes *****/
 body {
-  background: #ededed;
+  background: #EDEDED;
 }
 
 .entry {
@@ -211,8 +212,8 @@ body {
   transition: all 0.1s ease-in-out;
 }
 .loop-pagination a:hover, .loop-pagination a:active, .loop-pagination a:focus {
-  background: #f7f7f7;
-  border-color: #ededed;
+  background: #F7F7F7;
+  border-color: #EDEDED;
 }
 
 .archive-header {
@@ -278,3 +279,5 @@ body {
     padding: 1.5em 4.5em;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
