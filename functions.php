@@ -1,9 +1,7 @@
 <?php
 
 function ct_unit_after_setup_theme() {
-
-	// load text domain
-	load_theme_textdomain( 'unit', get_template_directory() . '/languages' );
+	load_child_theme_textdomain( 'unit', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'ct_unit_after_setup_theme' );
 
